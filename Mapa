@@ -1,1 +1,1154 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO7DM5TXjlo8NO3uWZhjNv5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "bffc6a26f5b046e2806bab1d4dc7df95": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "FigureModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_errors_box": "IPY_MODEL_8d1a6f4fcf8a49f382f95409ee80d92a",
+            "_map": "IPY_MODEL_7071aebe47d743aba6fad20ce220d14e",
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "FigureModel",
+            "_toolbar": "IPY_MODEL_4beae82ab9aa4c0faa7ab966e07a9711",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "FigureView",
+            "layout": "IPY_MODEL_13e7d08166624890a2c087b8cc304077"
+          }
+        },
+        "8d1a6f4fcf8a49f382f95409ee80d92a": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "ErrorsBoxModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "ErrorsBoxModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "ErrorsBoxView",
+            "errors": [],
+            "layout": "IPY_MODEL_696d8f62ceb7482990f34ba3b67ab809"
+          }
+        },
+        "7071aebe47d743aba6fad20ce220d14e": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "PlainmapModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "PlainmapModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "PlainmapView",
+            "configuration": {
+              "api_key": "AIzaSyBIp3sn5fU11k3gnjEk4mQKoxC-e_w4GLY"
+            },
+            "data_bounds": [
+              [
+                46.2,
+                6.1
+              ],
+              [
+                47.2,
+                7.1
+              ]
+            ],
+            "initial_viewport": {
+              "type": "ZOOM_CENTER",
+              "center": [
+                23.49,
+                -102.58
+              ],
+              "zoom_level": 5
+            },
+            "layers": [
+              "IPY_MODEL_6987ed4fda604cca8aee242ecde0ad9e"
+            ],
+            "layout": "IPY_MODEL_8bdec93a17b149e7ae93273b7847959c",
+            "map_type": "ROADMAP",
+            "mouse_handling": "COOPERATIVE",
+            "tilt": 45
+          }
+        },
+        "4beae82ab9aa4c0faa7ab966e07a9711": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "ToolbarModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "ToolbarModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "ToolbarView",
+            "layer_controls": [
+              "IPY_MODEL_68e9e0c461eb43c8a099fa43c24b4a8b"
+            ],
+            "layout": "IPY_MODEL_cfc8b43d88cc43ee8d74fe727ec4ea70"
+          }
+        },
+        "13e7d08166624890a2c087b8cc304077": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": "420px",
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "696d8f62ceb7482990f34ba3b67ab809": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "6987ed4fda604cca8aee242ecde0ad9e": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "DrawingLayerModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "DrawingLayerModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "DrawingLayerView",
+            "features": [
+              "IPY_MODEL_1c4d7de984984c539f8c315c9df33f75"
+            ],
+            "mode": "DELETE",
+            "toolbar_controls": "IPY_MODEL_68e9e0c461eb43c8a099fa43c24b4a8b"
+          }
+        },
+        "8bdec93a17b149e7ae93273b7847959c": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": "100%",
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": "100%"
+          }
+        },
+        "68e9e0c461eb43c8a099fa43c24b4a8b": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "DrawingControlsModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "DrawingControlsModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "DrawingControlsView",
+            "layout": "IPY_MODEL_7ae22960e35741f7874614b01aabb756",
+            "show_controls": true
+          }
+        },
+        "cfc8b43d88cc43ee8d74fe727ec4ea70": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "7ae22960e35741f7874614b01aabb756": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "803dd574d7354c4a8922e94c9db19c29": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "MarkerModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "MarkerModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "MarkerView",
+            "display_info_box": false,
+            "hover_text": "",
+            "info_box_content": "",
+            "label": "",
+            "location": [
+              26.102716667419685,
+              -105.5550981926918
+            ]
+          }
+        },
+        "1c4d7de984984c539f8c315c9df33f75": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "MarkerModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "MarkerModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "MarkerView",
+            "display_info_box": false,
+            "hover_text": "",
+            "info_box_content": "",
+            "label": "",
+            "location": [
+              21.602840780203525,
+              -102.6107622551918
+            ]
+          }
+        },
+        "be5c10d6a2e646e1971133db6ecfc658": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "FigureModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_errors_box": "IPY_MODEL_82beb926ff864f6cb8a7b829ccc4dced",
+            "_map": "IPY_MODEL_b7eb83406e624aa6835a3afb7df89f93",
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "FigureModel",
+            "_toolbar": "IPY_MODEL_67a13d48c2dd48b0b888460d60fedfb4",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "FigureView",
+            "layout": "IPY_MODEL_d963e93ce22a4aada64d252b9662a300"
+          }
+        },
+        "82beb926ff864f6cb8a7b829ccc4dced": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "ErrorsBoxModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "ErrorsBoxModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "ErrorsBoxView",
+            "errors": [],
+            "layout": "IPY_MODEL_60b5df8ab5824483a5b3cc0c6587594c"
+          }
+        },
+        "b7eb83406e624aa6835a3afb7df89f93": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "PlainmapModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "PlainmapModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "PlainmapView",
+            "configuration": {
+              "api_key": "AIzaSyBIp3sn5fU11k3gnjEk4mQKoxC-e_w4GLY"
+            },
+            "data_bounds": [
+              [
+                46.2,
+                6.1
+              ],
+              [
+                47.2,
+                7.1
+              ]
+            ],
+            "initial_viewport": {
+              "type": "ZOOM_CENTER",
+              "center": [
+                23.49,
+                -102.58
+              ],
+              "zoom_level": 5
+            },
+            "layers": [
+              "IPY_MODEL_6987ed4fda604cca8aee242ecde0ad9e"
+            ],
+            "layout": "IPY_MODEL_f75b8088e42241bd9ec14508eb7bfe87",
+            "map_type": "ROADMAP",
+            "mouse_handling": "COOPERATIVE",
+            "tilt": 45
+          }
+        },
+        "67a13d48c2dd48b0b888460d60fedfb4": {
+          "model_module": "jupyter-gmaps",
+          "model_name": "ToolbarModel",
+          "model_module_version": "0.9.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "jupyter-gmaps",
+            "_model_module_version": "0.9.0",
+            "_model_name": "ToolbarModel",
+            "_view_count": null,
+            "_view_module": "jupyter-gmaps",
+            "_view_module_version": "0.9.0",
+            "_view_name": "ToolbarView",
+            "layer_controls": [
+              "IPY_MODEL_68e9e0c461eb43c8a099fa43c24b4a8b"
+            ],
+            "layout": "IPY_MODEL_b81cc25845494e0cb95d9a4c69e0fb60"
+          }
+        },
+        "d963e93ce22a4aada64d252b9662a300": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": "420px",
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "60b5df8ab5824483a5b3cc0c6587594c": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "f75b8088e42241bd9ec14508eb7bfe87": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": "100%",
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": "100%"
+          }
+        },
+        "b81cc25845494e0cb95d9a4c69e0fb60": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/FernandaCorlix/IA-Mapas/blob/main/Mapa\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "29W2I9xU2mTq",
+        "outputId": "fd663a8b-b0e1-4537-ed7d-462307260518"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
+            "Collecting googlemaps\n",
+            "  Downloading googlemaps-4.6.0.tar.gz (31 kB)\n",
+            "Requirement already satisfied: requests<3.0,>=2.20.0 in /usr/local/lib/python3.7/dist-packages (from googlemaps) (2.23.0)\n",
+            "Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.7/dist-packages (from requests<3.0,>=2.20.0->googlemaps) (1.24.3)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.7/dist-packages (from requests<3.0,>=2.20.0->googlemaps) (2022.9.24)\n",
+            "Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.7/dist-packages (from requests<3.0,>=2.20.0->googlemaps) (3.0.4)\n",
+            "Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.7/dist-packages (from requests<3.0,>=2.20.0->googlemaps) (2.10)\n",
+            "Building wheels for collected packages: googlemaps\n",
+            "  Building wheel for googlemaps (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "  Created wheel for googlemaps: filename=googlemaps-4.6.0-py3-none-any.whl size=38554 sha256=61478484a3a3b68fe7deba4cd3091364382d579fda5defb98d359aaf1e0ebb1e\n",
+            "  Stored in directory: /root/.cache/pip/wheels/80/db/c0/6d958585fa97b20e250bf437acf7e6e715b4809c2dd4e55367\n",
+            "Successfully built googlemaps\n",
+            "Installing collected packages: googlemaps\n",
+            "Successfully installed googlemaps-4.6.0\n",
+            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
+            "Collecting ortools\n",
+            "  Downloading ortools-9.4.1874-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.0 MB)\n",
+            "\u001b[K     |████████████████████████████████| 16.0 MB 38.6 MB/s \n",
+            "\u001b[?25hRequirement already satisfied: numpy>=1.13.3 in /usr/local/lib/python3.7/dist-packages (from ortools) (1.21.6)\n",
+            "Requirement already satisfied: absl-py>=0.13 in /usr/local/lib/python3.7/dist-packages (from ortools) (1.3.0)\n",
+            "Collecting protobuf>=3.19.4\n",
+            "  Downloading protobuf-4.21.9-cp37-abi3-manylinux2014_x86_64.whl (408 kB)\n",
+            "\u001b[K     |████████████████████████████████| 408 kB 70.7 MB/s \n",
+            "\u001b[?25hInstalling collected packages: protobuf, ortools\n",
+            "  Attempting uninstall: protobuf\n",
+            "    Found existing installation: protobuf 3.17.3\n",
+            "    Uninstalling protobuf-3.17.3:\n",
+            "      Successfully uninstalled protobuf-3.17.3\n",
+            "\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n",
+            "tensorflow 2.9.2 requires protobuf<3.20,>=3.9.2, but you have protobuf 4.21.9 which is incompatible.\n",
+            "tensorflow-metadata 1.10.0 requires protobuf<4,>=3.13, but you have protobuf 4.21.9 which is incompatible.\n",
+            "tensorboard 2.9.1 requires protobuf<3.20,>=3.9.2, but you have protobuf 4.21.9 which is incompatible.\n",
+            "google-cloud-bigquery-storage 1.1.2 requires protobuf<4.0.0dev, but you have protobuf 4.21.9 which is incompatible.\n",
+            "google-api-core 1.31.6 requires protobuf<4.0.0dev,>=3.12.0; python_version > \"3\", but you have protobuf 4.21.9 which is incompatible.\u001b[0m\n",
+            "Successfully installed ortools-9.4.1874 protobuf-4.21.9\n",
+            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
+            "Collecting gmaps\n",
+            "  Downloading gmaps-0.9.0.tar.gz (1.1 MB)\n",
+            "\u001b[K     |████████████████████████████████| 1.1 MB 45.7 MB/s \n",
+            "\u001b[?25hRequirement already satisfied: ipython>=5.3.0 in /usr/local/lib/python3.7/dist-packages (from gmaps) (7.9.0)\n",
+            "Requirement already satisfied: ipywidgets>=7.0.0 in /usr/local/lib/python3.7/dist-packages (from gmaps) (7.7.1)\n",
+            "Requirement already satisfied: traitlets>=4.3.0 in /usr/local/lib/python3.7/dist-packages (from gmaps) (5.1.1)\n",
+            "Collecting geojson>=2.0.0\n",
+            "  Downloading geojson-2.5.0-py2.py3-none-any.whl (14 kB)\n",
+            "Requirement already satisfied: six in /usr/local/lib/python3.7/dist-packages (from gmaps) (1.15.0)\n",
+            "Requirement already satisfied: pexpect in /usr/local/lib/python3.7/dist-packages (from ipython>=5.3.0->gmaps) (4.8.0)\n",
+            "Requirement already satisfied: backcall in /usr/local/lib/python3.7/dist-packages (from ipython>=5.3.0->gmaps) (0.2.0)\n",
+            "Collecting jedi>=0.10\n",
+            "  Downloading jedi-0.18.1-py2.py3-none-any.whl (1.6 MB)\n",
+            "\u001b[K     |████████████████████████████████| 1.6 MB 56.0 MB/s \n",
+            "\u001b[?25hRequirement already satisfied: pygments in /usr/local/lib/python3.7/dist-packages (from ipython>=5.3.0->gmaps) (2.6.1)\n",
+            "Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.7/dist-packages (from ipython>=5.3.0->gmaps) (57.4.0)\n",
+            "Requirement already satisfied: prompt-toolkit<2.1.0,>=2.0.0 in /usr/local/lib/python3.7/dist-packages (from ipython>=5.3.0->gmaps) (2.0.10)\n",
+            "Requirement already satisfied: pickleshare in /usr/local/lib/python3.7/dist-packages (from ipython>=5.3.0->gmaps) (0.7.5)\n",
+            "Requirement already satisfied: decorator in /usr/local/lib/python3.7/dist-packages (from ipython>=5.3.0->gmaps) (4.4.2)\n",
+            "Requirement already satisfied: ipython-genutils~=0.2.0 in /usr/local/lib/python3.7/dist-packages (from ipywidgets>=7.0.0->gmaps) (0.2.0)\n",
+            "Requirement already satisfied: jupyterlab-widgets>=1.0.0 in /usr/local/lib/python3.7/dist-packages (from ipywidgets>=7.0.0->gmaps) (3.0.3)\n",
+            "Requirement already satisfied: widgetsnbextension~=3.6.0 in /usr/local/lib/python3.7/dist-packages (from ipywidgets>=7.0.0->gmaps) (3.6.1)\n",
+            "Requirement already satisfied: ipykernel>=4.5.1 in /usr/local/lib/python3.7/dist-packages (from ipywidgets>=7.0.0->gmaps) (5.3.4)\n",
+            "Requirement already satisfied: tornado>=4.2 in /usr/local/lib/python3.7/dist-packages (from ipykernel>=4.5.1->ipywidgets>=7.0.0->gmaps) (5.1.1)\n",
+            "Requirement already satisfied: jupyter-client in /usr/local/lib/python3.7/dist-packages (from ipykernel>=4.5.1->ipywidgets>=7.0.0->gmaps) (6.1.12)\n",
+            "Requirement already satisfied: parso<0.9.0,>=0.8.0 in /usr/local/lib/python3.7/dist-packages (from jedi>=0.10->ipython>=5.3.0->gmaps) (0.8.3)\n",
+            "Requirement already satisfied: wcwidth in /usr/local/lib/python3.7/dist-packages (from prompt-toolkit<2.1.0,>=2.0.0->ipython>=5.3.0->gmaps) (0.2.5)\n",
+            "Requirement already satisfied: notebook>=4.4.1 in /usr/local/lib/python3.7/dist-packages (from widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (5.5.0)\n",
+            "Requirement already satisfied: nbformat in /usr/local/lib/python3.7/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (5.7.0)\n",
+            "Requirement already satisfied: jupyter-core>=4.4.0 in /usr/local/lib/python3.7/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (4.11.2)\n",
+            "Requirement already satisfied: jinja2 in /usr/local/lib/python3.7/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (2.11.3)\n",
+            "Requirement already satisfied: Send2Trash in /usr/local/lib/python3.7/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (1.8.0)\n",
+            "Requirement already satisfied: pyzmq>=17 in /usr/local/lib/python3.7/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (23.2.1)\n",
+            "Requirement already satisfied: terminado>=0.8.1 in /usr/local/lib/python3.7/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.13.3)\n",
+            "Requirement already satisfied: nbconvert in /usr/local/lib/python3.7/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (5.6.1)\n",
+            "Requirement already satisfied: python-dateutil>=2.1 in /usr/local/lib/python3.7/dist-packages (from jupyter-client->ipykernel>=4.5.1->ipywidgets>=7.0.0->gmaps) (2.8.2)\n",
+            "Requirement already satisfied: ptyprocess in /usr/local/lib/python3.7/dist-packages (from terminado>=0.8.1->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.7.0)\n",
+            "Requirement already satisfied: MarkupSafe>=0.23 in /usr/local/lib/python3.7/dist-packages (from jinja2->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (2.0.1)\n",
+            "Requirement already satisfied: pandocfilters>=1.4.1 in /usr/local/lib/python3.7/dist-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (1.5.0)\n",
+            "Requirement already satisfied: bleach in /usr/local/lib/python3.7/dist-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (5.0.1)\n",
+            "Requirement already satisfied: testpath in /usr/local/lib/python3.7/dist-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.6.0)\n",
+            "Requirement already satisfied: defusedxml in /usr/local/lib/python3.7/dist-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.7.1)\n",
+            "Requirement already satisfied: entrypoints>=0.2.2 in /usr/local/lib/python3.7/dist-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.4)\n",
+            "Requirement already satisfied: mistune<2,>=0.8.1 in /usr/local/lib/python3.7/dist-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.8.4)\n",
+            "Requirement already satisfied: jsonschema>=2.6 in /usr/local/lib/python3.7/dist-packages (from nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (4.3.3)\n",
+            "Requirement already satisfied: importlib-metadata>=3.6 in /usr/local/lib/python3.7/dist-packages (from nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (4.13.0)\n",
+            "Requirement already satisfied: fastjsonschema in /usr/local/lib/python3.7/dist-packages (from nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (2.16.2)\n",
+            "Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.7/dist-packages (from importlib-metadata>=3.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (3.10.0)\n",
+            "Requirement already satisfied: typing-extensions>=3.6.4 in /usr/local/lib/python3.7/dist-packages (from importlib-metadata>=3.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (4.1.1)\n",
+            "Requirement already satisfied: importlib-resources>=1.4.0 in /usr/local/lib/python3.7/dist-packages (from jsonschema>=2.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (5.10.0)\n",
+            "Requirement already satisfied: attrs>=17.4.0 in /usr/local/lib/python3.7/dist-packages (from jsonschema>=2.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (22.1.0)\n",
+            "Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /usr/local/lib/python3.7/dist-packages (from jsonschema>=2.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.18.1)\n",
+            "Requirement already satisfied: webencodings in /usr/local/lib/python3.7/dist-packages (from bleach->nbconvert->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets>=7.0.0->gmaps) (0.5.1)\n",
+            "Building wheels for collected packages: gmaps\n",
+            "  Building wheel for gmaps (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "  Created wheel for gmaps: filename=gmaps-0.9.0-py2.py3-none-any.whl size=2076111 sha256=02cca984d591b102e91f7b7a1b800807d8ab89ee9e6e228a49ce953407c2236f\n",
+            "  Stored in directory: /root/.cache/pip/wheels/3d/1c/cb/c46f4199210e632b28d78d05a00bfdccbf6dfcd3f5b051d6bf\n",
+            "Successfully built gmaps\n",
+            "Installing collected packages: jedi, geojson, gmaps\n",
+            "Successfully installed geojson-2.5.0 gmaps-0.9.0 jedi-0.18.1\n",
+            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
+            "Collecting osmium\n",
+            "  Downloading osmium-3.4.1-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.3 MB)\n",
+            "\u001b[K     |████████████████████████████████| 1.3 MB 36.1 MB/s \n",
+            "\u001b[?25hRequirement already satisfied: requests in /usr/local/lib/python3.7/dist-packages (from osmium) (2.23.0)\n",
+            "Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.7/dist-packages (from requests->osmium) (1.24.3)\n",
+            "Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.7/dist-packages (from requests->osmium) (3.0.4)\n",
+            "Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.7/dist-packages (from requests->osmium) (2.10)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.7/dist-packages (from requests->osmium) (2022.9.24)\n",
+            "Installing collected packages: osmium\n",
+            "Successfully installed osmium-3.4.1\n",
+            "Enabling notebook extension jupyter-js-widgets/extension...\n",
+            "Paths used for configuration of notebook: \n",
+            "    \t/usr/etc/jupyter/nbconfig/notebook.json\n",
+            "Paths used for configuration of notebook: \n",
+            "    \t\n",
+            "      - Validating: \u001b[32mOK\u001b[0m\n",
+            "Paths used for configuration of notebook: \n",
+            "    \t/usr/etc/jupyter/nbconfig/notebook.json\n"
+          ]
+        }
+      ],
+      "source": [
+        "!pip install googlemaps\n",
+        "!pip install ortools\n",
+        "!pip install gmaps\n",
+        "!pip install osmium\n",
+        "!jupyter nbextension enable --py --sys-prefix widgetsnbextension"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import ipywidgets as widgets\n",
+        "import geopy\n",
+        "import gmaps\n",
+        "import time\n",
+        "\n",
+        "api_key = 'AIzaSyBIp3sn5fU11k3gnjEk4mQKoxC-e_w4GLY'\n",
+        "#Se asigna la key a la configuración de gmaps\n",
+        "gmaps.configure(api_key=api_key)"
+      ],
+      "metadata": {
+        "id": "dfel0Uaw2xvO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import output\n",
+        "output.enable_custom_widget_manager()"
+      ],
+      "metadata": {
+        "id": "RQE3N0j62wAY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "figure = gmaps.figure(center=(23.49, -102.58), zoom_level=5)   #23.491201, -102.586394\n",
+        "display(figure)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 465,
+          "referenced_widgets": [
+            "bffc6a26f5b046e2806bab1d4dc7df95",
+            "8d1a6f4fcf8a49f382f95409ee80d92a",
+            "7071aebe47d743aba6fad20ce220d14e",
+            "4beae82ab9aa4c0faa7ab966e07a9711",
+            "13e7d08166624890a2c087b8cc304077",
+            "696d8f62ceb7482990f34ba3b67ab809",
+            "6987ed4fda604cca8aee242ecde0ad9e",
+            "8bdec93a17b149e7ae93273b7847959c",
+            "68e9e0c461eb43c8a099fa43c24b4a8b",
+            "cfc8b43d88cc43ee8d74fe727ec4ea70",
+            "7ae22960e35741f7874614b01aabb756",
+            "803dd574d7354c4a8922e94c9db19c29",
+            "1c4d7de984984c539f8c315c9df33f75"
+          ]
+        },
+        "id": "G6z5xKbU21b3",
+        "outputId": "980471df-c59e-42e9-e90a-04e771d37f76"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Figure(layout=FigureLayout(height='420px'))"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "bffc6a26f5b046e2806bab1d4dc7df95"
+            }
+          },
+          "metadata": {
+            "application/vnd.jupyter.widget-view+json": {
+              "colab": {
+                "custom_widget_manager": {
+                  "url": "https://ssl.gstatic.com/colaboratory-static/widgets/colab-cdn-widget-manager/d2e234f7cc04bf79/manager.min.js"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "global drawing\n",
+        "drawing = gmaps.drawing_layer()\n",
+        "figure.add_layer(drawing)\n",
+        "display(figure)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 465,
+          "referenced_widgets": [
+            "bffc6a26f5b046e2806bab1d4dc7df95",
+            "8d1a6f4fcf8a49f382f95409ee80d92a",
+            "7071aebe47d743aba6fad20ce220d14e",
+            "4beae82ab9aa4c0faa7ab966e07a9711",
+            "13e7d08166624890a2c087b8cc304077",
+            "696d8f62ceb7482990f34ba3b67ab809",
+            "6987ed4fda604cca8aee242ecde0ad9e",
+            "8bdec93a17b149e7ae93273b7847959c",
+            "68e9e0c461eb43c8a099fa43c24b4a8b",
+            "cfc8b43d88cc43ee8d74fe727ec4ea70",
+            "7ae22960e35741f7874614b01aabb756",
+            "803dd574d7354c4a8922e94c9db19c29",
+            "1c4d7de984984c539f8c315c9df33f75"
+          ]
+        },
+        "id": "vgbyoHTx6eVQ",
+        "outputId": "9e14c11d-8828-4e6e-adb6-5448b9ee62b8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Figure(layout=FigureLayout(height='420px'))"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "bffc6a26f5b046e2806bab1d4dc7df95"
+            }
+          },
+          "metadata": {
+            "application/vnd.jupyter.widget-view+json": {
+              "colab": {
+                "custom_widget_manager": {
+                  "url": "https://ssl.gstatic.com/colaboratory-static/widgets/colab-cdn-widget-manager/d2e234f7cc04bf79/manager.min.js"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def new_feature_callback(feature):\n",
+        "  global location_list\n",
+        "  global drawing\n",
+        "  global puntos\n",
+        "  try:\n",
+        "    location = feature.location\n",
+        "  except AttributeError:\n",
+        "    #Si no es marcador, entonces termina\n",
+        "    print(feature)\n",
+        "    return\n",
+        "  location_list.append(feature)\n",
+        "  if len(location_list) > 2:\n",
+        "    location_list.pop(0)\n",
+        "  if len(drawing.features) > 1:\n",
+        "    drawing.features = location_list\n",
+        "  if len(location_list) == 2:\n",
+        "    p1 = location_list[0].location\n",
+        "    p2 = location_list[1].location\n",
+        "    #Almacenar las coordenadas de los puntos\n",
+        "    puntos = (p1, p2)"
+      ],
+      "metadata": {
+        "id": "M4ukm-WI6go7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Reset al mapa\n",
+        "\n",
+        "figure = gmaps.figure(center=(23.49, -102.58), zoom_level=5)   #23.491201, -102.586394\n",
+        "global location_list\n",
+        "location_list = []\n",
+        "#Se asigna una función para que al generar el evento de definir un punto en el mapa se realicen un conjunto de operaciones\n",
+        "drawing.on_new_feature(new_feature_callback)\n",
+        "figure.add_layer(drawing)\n",
+        "display(figure)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 465,
+          "referenced_widgets": [
+            "be5c10d6a2e646e1971133db6ecfc658",
+            "82beb926ff864f6cb8a7b829ccc4dced",
+            "b7eb83406e624aa6835a3afb7df89f93",
+            "67a13d48c2dd48b0b888460d60fedfb4",
+            "d963e93ce22a4aada64d252b9662a300",
+            "60b5df8ab5824483a5b3cc0c6587594c",
+            "6987ed4fda604cca8aee242ecde0ad9e",
+            "f75b8088e42241bd9ec14508eb7bfe87",
+            "68e9e0c461eb43c8a099fa43c24b4a8b",
+            "b81cc25845494e0cb95d9a4c69e0fb60",
+            "7ae22960e35741f7874614b01aabb756",
+            "803dd574d7354c4a8922e94c9db19c29",
+            "1c4d7de984984c539f8c315c9df33f75"
+          ]
+        },
+        "id": "BSCTZp5a6ixP",
+        "outputId": "261434ce-fd28-4642-af57-591f21c7d528"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Figure(layout=FigureLayout(height='420px'))"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "be5c10d6a2e646e1971133db6ecfc658"
+            }
+          },
+          "metadata": {
+            "application/vnd.jupyter.widget-view+json": {
+              "colab": {
+                "custom_widget_manager": {
+                  "url": "https://ssl.gstatic.com/colaboratory-static/widgets/colab-cdn-widget-manager/d2e234f7cc04bf79/manager.min.js"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
